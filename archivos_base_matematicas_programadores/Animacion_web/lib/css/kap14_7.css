@@ -1,0 +1,28 @@
+h1 {
+	background-color:red;
+	color:white;
+	text-align:center;
+}
+#label{
+	width:150px;
+	background-color:blue;
+	color:yellow;
+	display: inline-block;
+	border-style: solid;
+	border-width: 1pt;
+	margin:5px;
+}
+#label2{
+	width:150px;
+	background-color:blue;
+	color:red;
+	display: block;
+	border-style: solid;
+	border-width: 1pt;
+		margin:5px;
+}
+textarea{
+	
+}
+
+

@@ -1,0 +1,20 @@
+h1 {
+	background-color:red;
+	color:white;
+	text-align:center;
+}
+#cv1{
+	width:650px;
+	height:250px;
+	border-style: solid;
+	border-width: 1pt;
+	margin: 20px ;
+}
+#cv2{
+	width:650px;
+	height:350px;
+	border-style: dotted;
+	border-width: 1pt;
+}
+
+

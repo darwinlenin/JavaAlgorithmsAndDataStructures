@@ -1,0 +1,27 @@
+@keyframes ani1 {
+  0% { opacity: 0.1; transform: scale(1.0); }
+  25% { transform:translate(100px, 200px);}  
+  50% { opacity: 1; transform: scale(2.5); }
+  75% { transform: scale(1.0);}  
+  100% { opacity: 0.1; transform:translate(0px, 0px);}
+}
+@keyframes ani2 {
+  0% { transform: translate(100px, 0px) rotate(0deg) scale(1.0); }
+  55% { transform:translate(200px, 200px) rotate(45deg) scale(5);}  
+  100% { transform: translate(100px, 0px) rotate(0deg) scale(1.0);}
+}
+
+#box1 {
+	background: red;
+	color: white;
+	width: 100px;
+	animation: ani1 10s infinite;
+}
+
+#box2 {
+	background: green;
+	color: white;
+	width: 100px;
+	animation: ani2 20s infinite;
+}
+

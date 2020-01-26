@@ -1,0 +1,26 @@
+h1 {
+	background-color:red;
+	color:white;
+	text-align:center;
+}
+#antwort1 {
+	border-style:solid;
+	border-width:1pt;
+	background:yellow;
+	color:blue;
+	width:400px;
+	height:20px;
+	text-align:center;
+	margin:5px;
+}
+#antwort2 {
+	margin:5px;
+		border-style:solid;
+	border-width:1pt;
+	background:lightgray;
+	color:black;
+	width:400px;
+	height:20px;
+	text-align:center;
+}
+
